@@ -6,6 +6,14 @@ public class Student {
 	private String clsName;
 	private String fatherName;
 	private String motherName;
+	private int rank;
+
+	public int getRank() {
+		return rank;
+	}
+	public void setRank(int rank) {
+		this.rank = rank;
+	}
 	public String getName() {
 		return name;
 	}
@@ -46,7 +54,8 @@ public class Student {
 	public String toString() {
 		return "Student [name=" + name + ", roll=" + roll + ", address="
 				+ address + ", clsName=" + clsName + ", fatherName="
-				+ fatherName + ", motherName=" + motherName + "]";
+				+ fatherName + ", motherName=" + motherName + ", rank=" + rank
+				+ "]";
 	}
 	
 }
