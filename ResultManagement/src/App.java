@@ -6,10 +6,12 @@ public class App {
     	totalStudent=30;
     	student=new Student[this.totalStudent];
     }
+    
     public App(int totalStudent){
     	this.totalStudent=totalStudent;
     	student=new Student[this.totalStudent];
     }
+    
     public void displayAllStudent(){
     	for(Student s:this.student){
     		System.out.println(s);
@@ -17,8 +19,6 @@ public class App {
     }
 	public static void main(String[] args) {
 		System.out.println("Hello world");
-
-		
 	}
 
 }
