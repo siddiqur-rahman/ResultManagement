@@ -1,6 +1,7 @@
 
 public class App {
     private Student[] student;
+    private Subject[] subject;
     int totalStudent;
     public App(){
     	totalStudent=30;
@@ -12,6 +13,11 @@ public class App {
     }
     public void displayAllStudent(){
     	for(Student s:this.student){
+    		System.out.println(s);
+    	}
+    }
+    public void displaySubject{
+    	for(Subject s:this.subject){
     		System.out.println(s);
     	}
     }
