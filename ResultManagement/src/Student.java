@@ -1,13 +1,20 @@
 
 public class Student {
-	private String name;
+    private String name;
 	private String roll;
 	private String address;
 	private String clsName;
 	private String fatherName;
 	private String motherName;
+	private String admissionData;
 	private int rank;
 
+   public String getAdmissionData() {
+        return admissionData;
+    }
+    public void setAdmissionData(String admissionData) {
+        this.admissionData = admissionData;
+    }
 	public int getRank() {
 		return rank;
 	}
